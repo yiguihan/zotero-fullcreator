@@ -15,3 +15,5 @@ Email:normanus@yahoo.com
 #联系作者
 
 Email:normanus@yahoo.com
+
+![sample  示意图](sample.png)
