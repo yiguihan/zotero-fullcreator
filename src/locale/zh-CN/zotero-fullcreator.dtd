@@ -1,0 +1,3 @@
+<!ENTITY zotero.fullcreator "Plugin to show if references in Zotero have FullCreator comments">
+<!ENTITY zotero.fullcreator.item-menu.get-link "Check for comments on FullCreator">
+<!ENTITY zotero.items.fullcreator_column						"作者">

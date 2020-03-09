@@ -1,0 +1,57 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+button *, button:focus *
+{
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+#zotero-items-tree treechildren::-moz-tree-image(fullcreator-state-highlighted)
+{
+  margin: 1px 5px 0;
+  
+  height: 16px;
+}
+#zotero-items-tree treechildren::-moz-tree-image(fullcreator-state-neutral)
+{
+  margin: 1px 5px 0;
+  
+  height: 16px;
+}
+#zotero-items-tree treechildren::-moz-tree-image(fullcreator-state-muted)
+{
+  margin: 1px 5px 0;
+ 
+  height: 16px;
+}
+#zotero-items-tree treechildren::-moz-tree-image(fullcreator-state-loading)
+{
+  margin: 1px 5px 0;
+  
+  height: 16px;
+}
+
+.fullcreator-checkbox {
+  font-size: large;
+}
+
+.fullcreator-checkbox:hover {
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: outset;
+}
+.fullcreator-checkbox:active {
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: inset;
+}
+
+.fullcreator-user-priority .fullcreator-username {
+  background-color: #005049;
+  color: white;
+}
+.fullcreator-user-muted .fullcreator-username {
+  color: grey;
+}

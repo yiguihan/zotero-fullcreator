@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://zotero-fullcreator/skin/overlay.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://zotero-fullcreator/locale/zotero-fullcreator.dtd">
+
+<overlay id="zotero-fullcreator-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+
+  <treecols id="zotero-items-columns-header">
+    <treecol
+      id="zotero-items-column-fullcreator"
+      label="FullCreator"
+      flex="1"
+      insertafter="zotero-items-column-title"
+      zotero-persist="width ordinal hidden sortActive sortDirection"
+    />
+  </treecols>
+
+  <!-- Include the main extension logic -->
+  <script src="chrome://zotero/content/include.js"/>
+  <script src="chrome://zotero-fullcreator/content/webpack.js"/>
+  <script src="chrome://zotero-fullcreator/content/FullCreator.js"/>
+  <script src="chrome://zotero-fullcreator/content/FullCreator.zoteroPane.js"/>
+</overlay>

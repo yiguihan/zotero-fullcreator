@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:name>Fullcreator Plugin for Zotero</em:name>
+    <em:description>Plugin to show if references in Zotero have FullCreator comments</em:description>
+    <em:id>fullcreator@fullcreator.com</em:id>
+    <em:version>0.0.6</em:version>
+    <em:homepageURL>https://github.com/FullCreatorFoundation/fullcreator_zotero_plugin</em:homepageURL>
+    <em:creator>FullCreator Foundation</em:creator>
+    <em:iconURL>chrome://zotero-better-bibtex/skin/fullcreator.svg</em:iconURL>
+    <em:updateURL>https://github.com/FullCreatorFoundation/fullcreator_zotero_plugin/releases/download/release/update.rdf</em:updateURL>
+    <em:type>2</em:type>
+    <em:targetApplication>
+      <Description>
+        <em:id>zotero@chnm.gmu.edu</em:id>
+        <em:minVersion>5.0</em:minVersion>
+        <em:maxVersion>5.0.*</em:maxVersion>
+      </Description>
+      <Description>
+        <em:id>juris-m@juris-m.github.io</em:id>
+        <em:minVersion>5.0</em:minVersion>
+        <em:maxVersion>5.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

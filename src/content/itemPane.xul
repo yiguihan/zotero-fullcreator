@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://zotero-fullcreator/skin/overlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://zotero-fullcreator/skin/html.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://zotero-fullcreator/locale/zotero-fullcreator.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+ 
+
+  <!-- Include the main extension logic -->
+  <script src="chrome://zotero/content/include.js"/>
+  <script src="chrome://zotero-fullcreator/content/webpack.js"/>
+  <script src="chrome://zotero-fullcreator/content/FullCreator.js"/>
+  <script src="chrome://zotero-fullcreator/content/FullCreator.itemPane.js"/>
+</overlay>

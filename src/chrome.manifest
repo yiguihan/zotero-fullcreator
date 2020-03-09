@@ -1,0 +1,5 @@
+content  zotero-fullcreator          content/
+locale  zotero-fullcreator  en-US    locale/en-US/
+skin    zotero-fullcreator  default skin/default/
+
+overlay  chrome://zotero/content/zoteroPane.xul chrome://zotero-fullcreator/content/zoteroPane.xul
